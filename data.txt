@@ -1,0 +1,28 @@
+{
+    "name": "Piotr Zyla",
+    "email": "piotrzyla@buziaczek.pl",
+    "jobTitle": "Ski Jumper",
+    "phoneNumber": "48662019932",
+    "imageUrl": "https://bootdey.com/img/Content/avatar/avatar2.png"
+}
+{
+    "name": "Sanah",
+    "email": "sanah@wp.pl",
+    "jobTitle": "Singer",
+    "phoneNumber": "48504991012",
+    "imageUrl": "https://bootdey.com/img/Content/avatar/avatar3.png"
+}
+{
+    "name": "Jan Chrzan",
+    "email": "chrzanjan@gmail.com",
+    "jobTitle": "Senior Java Developer",
+    "phoneNumber": "48607822011",
+    "imageUrl": "https://bootdey.com/img/Content/avatar/avatar7.png"
+}
+{
+    "name": "Waldemar Kiepski",
+    "email": "walduskiepski@interia.pl",
+    "jobTitle": "Nobody",
+    "phoneNumber": "48792710475",
+    "imageUrl": "https://bootdey.com/img/Content/avatar/avatar1.png"
+}
