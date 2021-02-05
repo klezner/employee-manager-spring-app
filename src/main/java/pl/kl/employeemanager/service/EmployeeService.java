@@ -2,10 +2,12 @@ package pl.kl.employeemanager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.kl.employeemanager.exception.UserNotFoundException;
 import pl.kl.employeemanager.model.Employee;
 import pl.kl.employeemanager.repository.EmployeeRepository;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -31,11 +33,11 @@ public class EmployeeService {
     }
 
     public Employee findEmployeeById(Long id) {
-        return employeeRepository.findById(id)
+        return employeeRepository.findEmployeeById(id)
                 .orElseThrow(() -> new UserNotFoundException("User by id = " + id + " was not found."));
     }
 
     public void deleteEmployee(Long id) {
-        employeeRepository.deleteById(id);
+        employeeRepository.deleteEmployeeById(id);
     }
 }
